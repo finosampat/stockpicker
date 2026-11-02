@@ -17,7 +17,7 @@ Target setup: **backend on Render (free)** at `api.<your-domain>`, **frontend on
 Steps:
 
 1. Render dashboard → **New → Blueprint** → pick `finosampat/stockpicker` (Render reads `render.yaml`). Or **New → Web Service** and enter the settings above.
-2. Set `CORS_ORIGINS` to your frontend origins, e.g. `https://app.patbots.com,https://stockpicker.vercel.app`.
+2. Set `CORS_ORIGINS` to your frontend origins, e.g. `https://app.patbots.com,https://stockpicker-finosoft.vercel.app`.
 3. Deploy, then check `https://<service>.onrender.com/api/health`.
 
 ### Free-tier notes
