@@ -1,0 +1,100 @@
+symbol,name,sector
+AAPL,Apple Inc.,Information Technology
+MSFT,Microsoft,Information Technology
+NVDA,Nvidia,Information Technology
+AMZN,Amazon,Consumer Discretionary
+META,Meta Platforms,Communication Services
+AVGO,Broadcom,Information Technology
+GOOGL,Alphabet Inc. (Class A),Communication Services
+GOOG,Alphabet Inc. (Class C),Communication Services
+TSLA,"Tesla, Inc.",Consumer Discretionary
+COST,Costco,Consumer Staples
+NFLX,Netflix,Communication Services
+PLTR,Palantir Technologies,Information Technology
+ASML,ASML Holding,Information Technology
+TMUS,T-Mobile US,Communication Services
+CSCO,Cisco,Information Technology
+AMD,Advanced Micro Devices,Information Technology
+AZN,AstraZeneca,Health Care
+LIN,Linde plc,Materials
+PEP,PepsiCo,Consumer Staples
+INTU,Intuit,Information Technology
+ISRG,Intuitive Surgical,Health Care
+TXN,Texas Instruments,Information Technology
+BKNG,Booking Holdings,Consumer Discretionary
+QCOM,Qualcomm,Information Technology
+AMGN,Amgen,Health Care
+ADBE,Adobe Inc.,Information Technology
+ARM,Arm Holdings,Information Technology
+PDD,PDD Holdings,Consumer Discretionary
+HON,Honeywell Technologies,Industrials
+AMAT,Applied Materials,Information Technology
+GILD,Gilead Sciences,Health Care
+CMCSA,Comcast,Communication Services
+PANW,Palo Alto Networks,Information Technology
+ADP,Automatic Data Processing,Industrials
+MELI,MercadoLibre,Consumer Discretionary
+LRCX,Lam Research,Information Technology
+MU,Micron Technology,Information Technology
+APP,AppLovin,Communication Services
+VRTX,Vertex Pharmaceuticals,Health Care
+KLAC,KLA Corporation,Information Technology
+SBUX,Starbucks,Consumer Discretionary
+ADI,Analog Devices,Information Technology
+CRWD,CrowdStrike,Information Technology
+INTC,Intel,Information Technology
+CEG,Constellation Energy,Utilities
+MSTR,Strategy,Information Technology
+CTAS,Cintas,Industrials
+DASH,DoorDash,Consumer Discretionary
+ORLY,O'Reilly Automotive,Consumer Discretionary
+SNPS,Synopsys,Information Technology
+CDNS,Cadence Design Systems,Information Technology
+MDLZ,Mondelez International,Consumer Staples
+FTNT,Fortinet,Information Technology
+ABNB,Airbnb,Consumer Discretionary
+PYPL,PayPal,Financials
+MAR,Marriott International,Consumer Discretionary
+REGN,Regeneron Pharmaceuticals,Health Care
+ROP,Roper Technologies,Information Technology
+MRVL,Marvell Technology,Information Technology
+WDAY,"Workday, Inc.",Information Technology
+ADSK,Autodesk,Information Technology
+CSX,CSX Corporation,Industrials
+AXON,Axon Enterprise,Industrials
+CHTR,Charter Communications,Communication Services
+AEP,American Electric Power,Utilities
+MNST,Monster Beverage,Consumer Staples
+PAYX,Paychex,Industrials
+NXPI,NXP Semiconductors,Information Technology
+PCAR,Paccar,Industrials
+FAST,Fastenal,Industrials
+TTWO,Take-Two Interactive,Communication Services
+ROST,Ross Stores,Consumer Discretionary
+KDP,Keurig Dr Pepper,Consumer Staples
+CPRT,Copart,Industrials
+EXC,Exelon,Utilities
+DDOG,Datadog,Information Technology
+XEL,Xcel Energy,Utilities
+FANG,Diamondback Energy,Energy
+BKR,Baker Hughes,Energy
+CCEP,Coca-Cola Europacific Partners,Consumer Staples
+VRSK,Verisk Analytics,Industrials
+TEAM,Atlassian,Information Technology
+EA,EA,
+ZS,Zscaler,Information Technology
+CTSH,Cognizant,Information Technology
+ODFL,Old Dominion,Industrials
+IDXX,Idexx Laboratories,Health Care
+LULU,Lululemon Athletica,Consumer Discretionary
+GEHC,GE HealthCare,Health Care
+KHC,Kraft Heinz,Consumer Staples
+TTD,TTD,
+CSGP,CoStar Group,Real Estate
+DXCM,Dexcom,Health Care
+WBD,WBD,
+CDW,CDW Corporation,Information Technology
+ON,ON Semiconductor,Information Technology
+BIIB,Biogen,Health Care
+GFS,GlobalFoundries,Information Technology
+MDB,MongoDB,Information Technology

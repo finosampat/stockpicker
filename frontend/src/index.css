@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root,
+  .dark {
+    --background: 222 24% 7%;
+    --foreground: 210 20% 92%;
+    --card: 222 22% 10%;
+    --card-foreground: 210 20% 92%;
+    --popover: 222 22% 11%;
+    --popover-foreground: 210 20% 92%;
+    --primary: 199 89% 56%;
+    --primary-foreground: 222 47% 8%;
+    --secondary: 220 18% 16%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 220 18% 14%;
+    --muted-foreground: 217 12% 58%;
+    --accent: 220 18% 18%;
+    --accent-foreground: 210 20% 96%;
+    --destructive: 0 72% 56%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 16% 18%;
+    --input: 220 16% 20%;
+    --ring: 199 89% 56%;
+    --radius: 0.5rem;
+    --up: 152 62% 48%;
+    --down: 0 72% 60%;
+    --stage-accumulation: 199 89% 56%;
+    --stage-markup: 152 62% 48%;
+    --stage-distribution: 38 92% 56%;
+    --stage-decline: 0 72% 60%;
+  }
+  * { @apply border-border; }
+  html, body, #root { @apply h-full; }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'cv11', 'ss01', 'tnum';
+  }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-thumb { @apply rounded bg-secondary; }
+}
