@@ -69,8 +69,9 @@ export default function App() {
   const onMatch = useCallback(
     async (sym?: string) => {
       const s = (sym ?? symbol).trim().toUpperCase()
-      if (s) return run(s, lookback, universe)
+      if (sym || (s && !image)) return run(s, lookback, universe)
       if (!image) return
+      setImageError(null)
       try {
         // v1: images are validated server-side but not parsed; see backend TODO(vision).
         const res = await matchImage(image)
@@ -87,18 +88,21 @@ export default function App() {
     [symbol, image, lookback, universe, run],
   )
 
-  const onImage = useCallback(
-    (f: File | null) => {
-      setImage(f)
+  // The most recent input wins: a dropped chart clears the symbol and vice versa.
+  const onImage = useCallback((f: File | null) => {
+    setImage(f)
+    setImageNotice(null)
+    if (f) setSymbol('')
+  }, [])
+
+  const onSymbol = useCallback((s: string) => {
+    setSymbol(s)
+    if (s) {
+      setImage(null)
+      setImageError(null)
       setImageNotice(null)
-      if (f && !symbol) {
-        matchImage(f)
-          .then((res) => setImageNotice(res.message))
-          .catch((e) => setImageError(e instanceof Error ? e.message : 'Image upload failed'))
-      }
-    },
-    [symbol],
-  )
+    }
+  }, [])
 
   const changeLookback = (lb: Lookback) => {
     setLookback(lb)
@@ -118,7 +122,7 @@ export default function App() {
           <aside className="w-full shrink-0 md:w-72">
             <InputPanel
               symbol={symbol}
-              setSymbol={setSymbol}
+              setSymbol={onSymbol}
               lookback={lookback}
               setLookback={changeLookback}
               image={image}
